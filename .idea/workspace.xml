@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="add content to README.md files">
+    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="update generics README">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/GenericsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/GenericsDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/generics/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,7 +100,7 @@
       <workItem from="1567219461623" duration="1701000" />
       <workItem from="1568043216630" duration="1326000" />
       <workItem from="1568083729372" duration="982000" />
-      <workItem from="1568084933712" duration="4219000" />
+      <workItem from="1568084933712" duration="4827000" />
     </task>
     <task id="LOCAL-00001" summary="modify gitignore">
       <created>1568084162033</created>
@@ -145,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568085264135</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update generics README">
+      <created>1568090682538</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1568090682538</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +177,7 @@
     <MESSAGE value="add git changes" />
     <MESSAGE value="modify gitignore v3" />
     <MESSAGE value="add content to README.md files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add content to README.md files" />
+    <MESSAGE value="update generics README" />
+    <option name="LAST_COMMIT_MESSAGE" value="update generics README" />
   </component>
 </project>

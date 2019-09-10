@@ -73,8 +73,10 @@ Student student = new Student();
 container.value = student;
 container.display();
 ```
-
-# Restrict custom Generics to a specific Data Type
+```java
+generics.Student    // output
+```
+### Restrict custom Generics to a specific Data Type
 
 If we want to restrict our generics to one Data Type, we have to 
 extend the generic type T from a super class off the Data Type we consider!
@@ -99,9 +101,9 @@ ContainerWithType<Integer> container = new ContainerWithType<>();
 container.setValue(10);
 container.display();
 ```
-Now you can only set the generics which are sub classes of Number class! <br>
+Now you can only set the generics which are sub classes of Number class, for **ContainerWithType**! <br>
 Such as Integer, Double, Float... <br>
-If we set a different type, it shows an error compile time! <br>
+If we set a different type like String, it shows an error compile time! <br>
 
 Look at the below example..
 
@@ -126,4 +128,5 @@ ArrayList<? extends T> arr // parameter
 ```
 When we create ContainerArray with Number, T => Number <br>
 When we pass Integer array to getArray(), ? => Integer extends T => Number <br>
-Inheritance is there! We can use any sub class of Number class here such sa Double and Float.
+Inheritance is there! We can use any sub class of Number class here such as 
+Double and Float as a generic for creating the ArrayList.
