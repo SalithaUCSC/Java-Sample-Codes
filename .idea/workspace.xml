@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="update generics README v2">
+    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="add threads initial code and README">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/threads/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/threads/ThreadsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/ThreadsDemo.java" afterDir="false" />
@@ -116,7 +116,7 @@
       <workItem from="1567219461623" duration="1701000" />
       <workItem from="1568043216630" duration="1326000" />
       <workItem from="1568083729372" duration="982000" />
-      <workItem from="1568084933712" duration="7425000" />
+      <workItem from="1568084933712" duration="11346000" />
     </task>
     <task id="LOCAL-00001" summary="modify gitignore">
       <created>1568084162033</created>
@@ -181,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568091622494</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add threads initial code and README">
+      <created>1568101657306</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1568101657306</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +217,7 @@
     <MESSAGE value="update generics README" />
     <MESSAGE value="update generics README v1" />
     <MESSAGE value="update generics README v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="update generics README v2" />
+    <MESSAGE value="add threads initial code and README" />
+    <option name="LAST_COMMIT_MESSAGE" value="add threads initial code and README" />
   </component>
 </project>

@@ -44,7 +44,70 @@ public static void main(String[] args) {
      }).start();
  }
 ```
+**OR**
+```java
+public static void main(String[] args) {
+    System.out.println("main");
+    Thread t = new Thread(new Runnable() {
+        @Override
+        public void run() {
+            System.out.println("newer thread");
+        }
+    });
+    t.start();
+}
+```
 ```java
 main            // from main thread
 newer thread      // from new thread
 ```
+
+### Implementation of Threads
+>1. Extending from Thread class
+>2. Implementing Runnable Interface
+
+### 1. Extending from Thread class
+In this way, we have to inherit the Thread class to out custom class. Then override
+the **run()** method which is a super class method.
+```java
+class ThreadTest extends Thread{
+    @Override
+    public void run(){
+        for (int i = 0; i < 10; i++) {
+            System.out.println(Thread.currentThread().getName()+" value => "+i);
+        }
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+###2. Implementing Runnable Interface
+Here we have to implement the class from Runnable Interface. Then we must override the method
+**run()** since Runnable is an interface.
+```java
+class ThreadRunnable implements Runnable{
+    @Override
+    public void run() {
+        for (int i = 0; i < 10; i++) {
+            System.out.println(Thread.currentThread().getName()+" value => "+i);
+        }
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
+> **sleep()** method keeps the thread awake until the time is gone that we define
+>as a parameter. After that program is terminated.
+
+### Synchronized key word
+
+**Synchronized** method is used to **lock an object** for any shared resource. 
+When a thread invokes a synchronized method, it automatically acquires the 
+lock for that object and releases it when the thread completes its task.
