@@ -57,7 +57,7 @@ Since we call the method, It should display the type of value variable!
 java.lang.Integer   // output 1
 java.lang.String    // output 2
 ```
-Generics TYPES only support for Wrapper classes like Integer, Double, String and etc. We can not 
+Generics TYPES only support for Wrapper classes like **Integer, Double, String** and etc. We can not 
 include int, double as Generic TYPES. But we can set a custom class as a Generic like this.
 ```java
 class StudentGeneric<Student> {
@@ -103,7 +103,7 @@ container.display();
 ```
 Now you can only set the generics which are sub classes of Number class, for **ContainerWithType**! <br>
 Such as Integer, Double, Float... <br>
-If we set a different type like String, it shows an error compile time! <br>
+If we set a different type like String, it shows an error compile time!!! <br>
 
 Look at the below example..
 
@@ -121,12 +121,12 @@ array.add(2);
 array.add(3);
 container4.getArray(array);
 ```
-Here the ContainerArray instance has been created with Type Number(Super class). <br>
+Here the **ContainerArray** instance - container4, has been created with Type **Number**(Super class). <br>
 In getArray() method we see a different syntax. <br>
 ```java 
 ArrayList<? extends T> arr // parameter
 ```
-When we create ContainerArray with Number, T => Number <br>
-When we pass Integer array to getArray(), ? => Integer extends T => Number <br>
-Inheritance is there! We can use any sub class of Number class here such as 
+When we create **ContainerArray** with Number, T => Number <br>
+When we pass Integer array to **getArray()**, ? => Integer extends T => Number <br>
+**Inheritance** is there! We can use any sub class of Number class here such as 
 Double and Float as a generic for creating the ArrayList.
