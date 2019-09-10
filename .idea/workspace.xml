@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="modify gitignore v3">
-      <change beforePath="$PROJECT_DIR$/src/collections/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threads/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/README.md" afterDir="false" />
+    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="add content to README.md files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/GenericsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/GenericsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +101,7 @@
       <workItem from="1567219461623" duration="1701000" />
       <workItem from="1568043216630" duration="1326000" />
       <workItem from="1568083729372" duration="982000" />
-      <workItem from="1568084933712" duration="303000" />
+      <workItem from="1568084933712" duration="4219000" />
     </task>
     <task id="LOCAL-00001" summary="modify gitignore">
       <created>1568084162033</created>
@@ -138,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568085108704</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add content to README.md files">
+      <created>1568085264135</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568085264135</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +170,7 @@
     <MESSAGE value="add main classes" />
     <MESSAGE value="add git changes" />
     <MESSAGE value="modify gitignore v3" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify gitignore v3" />
+    <MESSAGE value="add content to README.md files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add content to README.md files" />
   </component>
 </project>
