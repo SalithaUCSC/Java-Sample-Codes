@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="add main classes" />
+    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="modify gitignore v3">
+      <change beforePath="$PROJECT_DIR$/src/collections/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpatterns/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threads/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +101,7 @@
       <workItem from="1567219461623" duration="1701000" />
       <workItem from="1568043216630" duration="1326000" />
       <workItem from="1568083729372" duration="982000" />
+      <workItem from="1568084933712" duration="303000" />
     </task>
     <task id="LOCAL-00001" summary="modify gitignore">
       <created>1568084162033</created>
@@ -119,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568084571701</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add git changes">
+      <created>1568085014160</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568085014160</updated>
+    </task>
+    <task id="LOCAL-00005" summary="modify gitignore v3">
+      <created>1568085108704</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568085108704</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,7 +149,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -140,6 +161,8 @@
     <MESSAGE value="modify gitignore" />
     <MESSAGE value="modify gitignore v2" />
     <MESSAGE value="add main classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="add main classes" />
+    <MESSAGE value="add git changes" />
+    <MESSAGE value="modify gitignore v3" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify gitignore v3" />
   </component>
 </project>
