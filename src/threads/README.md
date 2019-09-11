@@ -104,10 +104,86 @@ class ThreadRunnable implements Runnable{
 }
 ```
 > **sleep()** method keeps the thread awake until the time is gone that we define
->as a parameter. After that program is terminated.
+>as a parameter. After that time, program is terminated.
 
+>**join()** method allows one thread to wait until another thread completes its execution.
+
+---
 ### Synchronized key word
 
+**Synchronization** in java is the capability to control the access of multiple threads to any shared resource.
+<br> So after synchronization, one thread will run at a time!<br>
 **Synchronized** method is used to **lock an object** for any shared resource. 
 When a thread invokes a synchronized method, it automatically acquires the 
-lock for that object and releases it when the thread completes its task.
+lock for that object and releases it when the thread completes its task. <br>
+Look at the below code...
+
+```java
+class Resource {
+
+    private String name;
+    public synchronized void getAccess(String resource)
+    {
+        System.out.println(resource+" is accessed by "+Thread.currentThread().getName());
+        try
+        {
+            Thread.sleep(1000);
+        }
+        catch (Exception e)
+        {
+            System.out.println("Thread Exception Found!");
+        }
+        System.out.println(resource+" is released by "+Thread.currentThread().getName());
+    }
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+}
+
+class ThreadRun extends Thread {
+
+    Resource resource;
+
+    ThreadRun(Resource obj)
+    {
+        resource = obj;
+    }
+
+    @Override
+    public void run()
+    {
+        resource.setName("R");
+        resource.getAccess(resource.getName());
+    }
+}
+
+public class SynchronizedDemo {
+    public static void main(String args[])
+    {
+        final Resource obj = new Resource();
+        ThreadRun t1 = new ThreadRun(obj);
+        ThreadRun t2 = new ThreadRun(obj);
+        t1.start();
+        t2.start();
+    }
+}
+```
+```java
+// output
+R is accessed by Thread-0
+R is released by Thread-0
+R is accessed by Thread-1
+R is released by Thread-1
+```
+The one and only resource R is accessed by a Thread, after it's released only! If we reomve the 
+synchronized word from the method getAccess(), you can see the resource R is
+accessed by the 2 threads concurrently. <br>
+
+>**Synchronized block** can be used to perform synchronization on any specific resource of the method.
+
+>If any **static** method is made as synchronized, the lock will be on the class not on object.
+
