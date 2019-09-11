@@ -43,6 +43,15 @@ class StudentGeneric<Student> {
     }
 }
 
+class Student{
+   private String name;
+   private int age;
+
+   Student(){
+       System.out.println("I'm a student");
+   }
+}
+
 class ContainerArray<T extends Number> {
     public void getArray(ArrayList<? extends T> arr) {
         System.out.println(arr);
@@ -68,21 +77,21 @@ public class GenericsDemo {
         container2.setValue("10");
         container2.display();
 
-        StudentGeneric<Student> container = new StudentGeneric<Student>();
+        StudentGeneric<Student> container3 = new StudentGeneric<>();
         Student student = new Student();
-        container.value = student;
-        container.display();
-
-        ContainerWithType<Integer> container3 = new ContainerWithType<>();
-        container3.setValue(10);
+        container3.value = student;
         container3.display();
 
-        ContainerArray<Number> container4 = new ContainerArray();
+        ContainerWithType<Integer> container4 = new ContainerWithType<>();
+        container4.setValue(10);
+        container4.display();
+
+        ContainerArray<Number> container5 = new ContainerArray();
         ArrayList<Integer> array = new ArrayList<>();
         array.add(1);
         array.add(2);
         array.add(3);
-        container4.getArray(array);
+        container5.getArray(array);
 
     }
 }
