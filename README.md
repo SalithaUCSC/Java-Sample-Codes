@@ -1,4 +1,4 @@
-# Java-Advanced
+# Java-Sample-Codes
 
 >Repository to store important Java concepts with code examples.
 
