@@ -1,6 +1,6 @@
 # Java-Advanced
 
->Repository to store Advanced Java Concepts with code examples.
+>Repository to store important Java concepts with code examples.
 
 Content in the repository:
 
