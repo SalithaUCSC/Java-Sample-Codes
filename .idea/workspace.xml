@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="add collections done and update README v2" />
+    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="update main README with work done.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +162,7 @@
       <workItem from="1568083729372" duration="982000" />
       <workItem from="1568084933712" duration="11566000" />
       <workItem from="1568151307641" duration="266000" />
-      <workItem from="1568152954309" duration="17089000" />
+      <workItem from="1568152954309" duration="17736000" />
     </task>
     <task id="LOCAL-00001" summary="modify gitignore">
       <created>1568084162033</created>
@@ -266,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568180050063</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="update main README with work done.">
+      <created>1568180360287</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1568180360287</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +311,7 @@
     <MESSAGE value="fix readme change" />
     <MESSAGE value="add collections v1" />
     <MESSAGE value="add collections done and update README v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add collections done and update README v2" />
+    <MESSAGE value="update main README with work done." />
+    <option name="LAST_COMMIT_MESSAGE" value="update main README with work done." />
   </component>
 </project>
