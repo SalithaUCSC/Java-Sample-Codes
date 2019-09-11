@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="update main README with work done.">
-      <change afterPath="$PROJECT_DIR$/src/oop/encapsulation/EncapsulationDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-docs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-sample-codes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/GenericsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/GenericsDemo.java" afterDir="false" />
-    </list>
+    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="add oop module, strings and wrappers" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +160,7 @@
       <workItem from="1568084933712" duration="11566000" />
       <workItem from="1568151307641" duration="266000" />
       <workItem from="1568152954309" duration="17736000" />
-      <workItem from="1568207171806" duration="1555000" />
+      <workItem from="1568207171806" duration="1819000" />
     </task>
     <task id="LOCAL-00001" summary="modify gitignore">
       <created>1568084162033</created>
@@ -280,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568180360287</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add oop module, strings and wrappers">
+      <created>1568209015849</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1568209015849</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,6 +317,7 @@
     <MESSAGE value="add collections v1" />
     <MESSAGE value="add collections done and update README v2" />
     <MESSAGE value="update main README with work done." />
-    <option name="LAST_COMMIT_MESSAGE" value="update main README with work done." />
+    <MESSAGE value="add oop module, strings and wrappers" />
+    <option name="LAST_COMMIT_MESSAGE" value="add oop module, strings and wrappers" />
   </component>
 </project>

@@ -7,6 +7,9 @@ Content in the repository:
 * [x] Collections
 * [x] Threads
 * [x] Generics
+* [x] OOP Concepts
+* [ ] String Class
+* [ ] Wrappers
 * [ ] Design Patterns
 
 Hint:
