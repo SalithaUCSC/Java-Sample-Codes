@@ -85,7 +85,7 @@ class ThreadTest extends Thread{
 }
 ```
 
-###2. Implementing Runnable Interface
+### 2. Implementing Runnable Interface
 Here we have to implement the class from Runnable Interface. Then we must override the method
 **run()** since Runnable is an interface.
 ```java
