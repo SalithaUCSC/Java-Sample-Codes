@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="fix readme change">
-      <change afterPath="$PROJECT_DIR$/src/collections/ArrayListDemo.java" afterDir="false" />
+    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="add collections v1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/CollectionsDemo.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/collections/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QueueDemo">
+  <component name="RunManager" selected="Application.SetDemo">
     <configuration name="ArrayListsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collections.ArrayListsDemo" />
       <module name="java-docs" />
@@ -61,13 +59,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.GenericsDemo" />
+    <configuration name="QueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.QueueDemo" />
       <module name="java-docs" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.*" />
+          <option name="PATTERN" value="collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,8 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.QueueDemo" />
+    <configuration name="SetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.SetDemo" />
       <module name="java-docs" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -141,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SetDemo" />
         <item itemvalue="Application.QueueDemo" />
         <item itemvalue="Application.ArrayListsDemo" />
         <item itemvalue="Application.SynchronizedDemo" />
         <item itemvalue="Application.ThreadsDemo" />
-        <item itemvalue="Application.GenericsDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +162,7 @@
       <workItem from="1568083729372" duration="982000" />
       <workItem from="1568084933712" duration="11566000" />
       <workItem from="1568151307641" duration="266000" />
-      <workItem from="1568152954309" duration="14499000" />
+      <workItem from="1568152954309" duration="16836000" />
     </task>
     <task id="LOCAL-00001" summary="modify gitignore">
       <created>1568084162033</created>
@@ -257,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568169805301</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add collections v1">
+      <created>1568177605356</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1568177605356</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +295,7 @@
     <MESSAGE value="add threads v1" />
     <MESSAGE value="add threads v2 with synchronization" />
     <MESSAGE value="fix readme change" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix readme change" />
+    <MESSAGE value="add collections v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="add collections v1" />
   </component>
 </project>

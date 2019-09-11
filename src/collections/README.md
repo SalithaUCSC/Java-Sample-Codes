@@ -32,7 +32,7 @@ arrayList.clear()               // remove all the elements in the list
 ```
 
 ### 2. Queue
-Follows a FIFO(First In First Out) approach
+Follows a FIFO(First In First Out) approach.
 > Declaration
 ```java
 Queue<Integer> queue = new LinkedList<>();  // OR
@@ -46,4 +46,37 @@ queue2.peek()                   // returns the head of queue
 queue.poll()                    // remove the head of queue
 ```
 ### 3. Set
-Contains ordered collection of elements **without** duplicates.
+Contains ordered collection of elements **without** duplicates. <br>
+Set has its implementation in various classes. <br>
+* HashSet, LinkedHashSet, TreeSet
+
+>HashSet
+
+* Contains unique elements.
+* Uses a **hash** function to store elements. It generates a hashCode for each element.
+* Elements are unordered due to hashing.
+```java
+Set<String> set = new HashSet<>();
+```
+>LinkedHashSet
+* Contains unique elements.
+* Hash Table and Linked list implementation of Set interface.
+* Maintains the insertion order. Elements gets sorted in the same sequence in which they have been added to the Set.
+```java
+LinkedHashSet<String> set = new LinkedHashSet<>();
+```
+>TreeSet
+* Contains unique elements.
+* Sorts the elements in ascending order.
+```java
+TreeSet<String> set = new TreeSet<>();
+```
+>some common operations for all type of sets
+```java
+System.out.println(set);    // display set
+set.add("salitha")          // add elements to the set
+set.size()                  // return the size
+set.contains("salitha")     // check whether an element is in the set or not
+set.remove("salitha")       // remove an element from set
+set.clear()                 // remove all the elements in the set
+```
