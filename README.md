@@ -9,7 +9,10 @@ Content in the repository:
 * [x] Generics
 * [x] OOP Concepts
 * [ ] String Class
-* [ ] Wrappers
+* [ ] Wrapper Classes
+* [ ] Exceptions
+* [ ] Casting
+* [ ] Inner Classes & Lambda
 * [ ] Design Patterns
 
 Hint:

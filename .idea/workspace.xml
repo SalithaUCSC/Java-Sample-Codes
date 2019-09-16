@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="update README files" />
+    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="update main README v4">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +163,8 @@
       <workItem from="1568084933712" duration="11566000" />
       <workItem from="1568151307641" duration="266000" />
       <workItem from="1568152954309" duration="17736000" />
-      <workItem from="1568207171806" duration="2095000" />
+      <workItem from="1568207171806" duration="3476000" />
+      <workItem from="1568620171840" duration="1135000" />
     </task>
     <task id="LOCAL-00001" summary="modify gitignore">
       <created>1568084162033</created>
@@ -288,7 +292,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568209181672</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="update main README v4">
+      <created>1568209433159</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1568209433159</updated>
+    </task>
+    <task id="LOCAL-00020" summary="update main README v4">
+      <created>1568209475644</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1568209475644</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,6 +344,7 @@
     <MESSAGE value="update main README with work done." />
     <MESSAGE value="add oop module, strings and wrappers" />
     <MESSAGE value="update README files" />
-    <option name="LAST_COMMIT_MESSAGE" value="update README files" />
+    <MESSAGE value="update main README v4" />
+    <option name="LAST_COMMIT_MESSAGE" value="update main README v4" />
   </component>
 </project>
