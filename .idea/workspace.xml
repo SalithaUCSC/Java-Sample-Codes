@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="update main README v4">
+    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="update main README v5">
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/AbstractFactoryDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/AbstractPhoneFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/classes/GooglePhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/classes/HuaweiPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/classes/MicrosoftPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/classes/OnePlus5T.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/factories/AndroidFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/factories/WindowsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/interfaces/OSFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/interfaces/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/types/ManufacturerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/types/OSType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/factory/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/factory/FactoryDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/factory/Van.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/factory/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/factory/VehicleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/singleton/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/singleton/SingletonDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpatterns/DesignPatternsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/DesignPatternsDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +33,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -30,6 +50,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -44,14 +65,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GenericsDemo">
-    <configuration name="AbstractionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.abstraction.AbstractionDemo" />
+  <component name="RunManager" selected="Application.AbstractFactoryDemo (1)">
+    <configuration name="AbstractFactoryDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstractfactory.AbstractFactoryDemo" />
       <module name="java-sample-codes" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop.abstraction.*" />
+          <option name="PATTERN" value="abstractfactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,13 +80,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.ArrayListsDemo" />
+    <configuration name="AbstractFactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.abstractfactory.AbstractFactoryDemo" />
       <module name="java-sample-codes" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.*" />
+          <option name="PATTERN" value="designpatterns.abstractfactory.types.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,13 +94,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.GenericsDemo" />
+    <configuration name="DesignPatternsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.DesignPatternsDemo" />
       <module name="java-sample-codes" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.*" />
+          <option name="PATTERN" value="designpatterns.abstractfactory.classes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,13 +108,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.QueueDemo" />
+    <configuration name="FactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.factory.FactoryDemo" />
       <module name="java-sample-codes" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.*" />
+          <option name="PATTERN" value="designpatterns.factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,13 +122,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.SetDemo" />
+    <configuration name="SingletonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.singleton.SingletonDemo" />
       <module name="java-sample-codes" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.*" />
+          <option name="PATTERN" value="designpatterns.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GenericsDemo" />
-        <item itemvalue="Application.AbstractionDemo" />
-        <item itemvalue="Application.SetDemo" />
-        <item itemvalue="Application.QueueDemo" />
-        <item itemvalue="Application.ArrayListsDemo" />
+        <item itemvalue="Application.AbstractFactoryDemo (1)" />
+        <item itemvalue="Application.AbstractFactoryDemo" />
+        <item itemvalue="Application.SingletonDemo" />
+        <item itemvalue="Application.FactoryDemo" />
+        <item itemvalue="Application.DesignPatternsDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +185,8 @@
       <workItem from="1568151307641" duration="266000" />
       <workItem from="1568152954309" duration="17736000" />
       <workItem from="1568207171806" duration="3476000" />
-      <workItem from="1568620171840" duration="1135000" />
+      <workItem from="1568620171840" duration="1175000" />
+      <workItem from="1568739548596" duration="16841000" />
     </task>
     <task id="LOCAL-00001" summary="modify gitignore">
       <created>1568084162033</created>
@@ -306,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568209475644</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="update main README v5">
+      <created>1568621324477</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1568621324477</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,6 +374,21 @@
     <MESSAGE value="add oop module, strings and wrappers" />
     <MESSAGE value="update README files" />
     <MESSAGE value="update main README v4" />
-    <option name="LAST_COMMIT_MESSAGE" value="update main README v4" />
+    <MESSAGE value="update main README v5" />
+    <option name="LAST_COMMIT_MESSAGE" value="update main README v5" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/designpatterns/abstractfactory/AbstractFactoryDemo.java</url>
+          <line>8</line>
+          <properties class="designpatterns.abstractfactory.AbstractFactoryDemo" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
