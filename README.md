@@ -8,6 +8,7 @@ Content in the repository:
 * [x] Threads
 * [x] Generics
 * [x] OOP Concepts
+* [x] Stack and Heap Memory
 * [ ] String Class
 * [ ] Wrapper Classes
 * [ ] Exceptions
