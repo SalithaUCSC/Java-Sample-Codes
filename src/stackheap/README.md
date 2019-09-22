@@ -16,9 +16,9 @@ Whenever we create any object, it’s always created in the Heap space.
 In the above code, first main method thread is found, JRE creates a 
 stack to execute the **main()**. The main method finds **method1()** first. 
 Then it's called. **x** is created and stored as a local primitive variable within the allocated 
-frame for method1(). Then method() is calling for method2(). As the next 
-step, **method2()** is executed. A new frame is created for method2(). 
-It takes an Integer **a** - as a parameter. Then **b** is also put in this frame. Now method2() 
+frame for method1(). Then method1() is calling for **method2()**. As the next 
+step, method2() is executed. A new frame is created for method2(). 
+It takes an Integer **a** - as a parameter. Then **a** is also put in this frame. Now method2() 
 calls **method3()**. This method3() is creating a **Student** object. So now this object 
 is created in **Heap**. The reference variable for that object is stored in 
 **Stack** as **st**.

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="add creational design patterns">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="update stackheap readme">
+      <change beforePath="$PROJECT_DIR$/src/stackheap/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/stackheap/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -169,7 +168,7 @@
       <workItem from="1568620171840" duration="1175000" />
       <workItem from="1568739548596" duration="16926000" />
       <workItem from="1568805013596" duration="892000" />
-      <workItem from="1569071561031" duration="5945000" />
+      <workItem from="1569071561031" duration="6209000" />
     </task>
     <task id="LOCAL-00001" summary="modify gitignore">
       <created>1568084162033</created>
@@ -325,7 +324,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568803799281</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add stack and heap module">
+      <created>1569114482226</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1569114482227</updated>
+    </task>
+    <task id="LOCAL-00024" summary="update stackheap readme">
+      <created>1569114628249</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1569114628249</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,7 +379,9 @@
     <MESSAGE value="update main README v4" />
     <MESSAGE value="update main README v5" />
     <MESSAGE value="add creational design patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="add creational design patterns" />
+    <MESSAGE value="add stack and heap module" />
+    <MESSAGE value="update stackheap readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="update stackheap readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
