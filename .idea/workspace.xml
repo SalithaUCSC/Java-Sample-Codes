@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="update stackheap readme">
-      <change beforePath="$PROJECT_DIR$/src/stackheap/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/stackheap/README.md" afterDir="false" />
+    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="update stackheap readme v1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strings/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strings/StringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/StringDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StackHeapDemo">
+  <component name="RunManager" selected="Application.StringDemo">
     <configuration name="AbstractFactoryDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="abstractfactory.AbstractFactoryDemo" />
       <module name="java-sample-codes" />
@@ -67,20 +70,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="designpatterns.abstractfactory.types.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpatterns.factory.FactoryDemo" />
-      <module name="java-sample-codes" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designpatterns.factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,6 +105,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.StringDemo" />
+      <module name="java-sample-codes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -140,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringDemo" />
         <item itemvalue="Application.StackHeapDemo" />
         <item itemvalue="Application.AbstractFactoryDemo (1)" />
         <item itemvalue="Application.AbstractFactoryDemo" />
         <item itemvalue="Application.SingletonDemo" />
-        <item itemvalue="Application.FactoryDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +171,7 @@
       <workItem from="1568620171840" duration="1175000" />
       <workItem from="1568739548596" duration="16926000" />
       <workItem from="1568805013596" duration="892000" />
-      <workItem from="1569071561031" duration="6209000" />
+      <workItem from="1569071561031" duration="12550000" />
     </task>
     <task id="LOCAL-00001" summary="modify gitignore">
       <created>1568084162033</created>
@@ -338,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569114628249</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="update stackheap readme v1">
+      <created>1569114804749</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1569114804749</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +391,8 @@
     <MESSAGE value="add creational design patterns" />
     <MESSAGE value="add stack and heap module" />
     <MESSAGE value="update stackheap readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="update stackheap readme" />
+    <MESSAGE value="update stackheap readme v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="update stackheap readme v1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -9,7 +9,7 @@ Content in the repository:
 * [x] Generics
 * [x] OOP Concepts
 * [x] Stack and Heap Memory
-* [ ] String Class
+* [x] Strings
 * [ ] Wrapper Classes
 * [ ] Exceptions
 * [ ] Casting
