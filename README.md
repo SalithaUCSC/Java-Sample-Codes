@@ -10,6 +10,7 @@ Content in the repository:
 * [x] OOP Concepts
 * [x] Stack and Heap Memory
 * [x] Strings
+* [ ] Data Structures
 * [ ] Wrapper Classes
 * [ ] Exceptions
 * [ ] Casting
