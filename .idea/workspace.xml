@@ -1,53 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="add strings module and update readme">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="add data structures module">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-sample-codes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-sample-codes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/ArrayListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/ArrayListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/QueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/QueueDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/SetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/SetDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/DesignPatternsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/DesignPatternsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/abstractfactory/AbstractFactoryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/AbstractFactoryDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/abstractfactory/AbstractPhoneFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/AbstractPhoneFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/abstractfactory/classes/GooglePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/classes/GooglePhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/abstractfactory/classes/HuaweiPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/classes/HuaweiPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/abstractfactory/classes/MicrosoftPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/classes/MicrosoftPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/abstractfactory/classes/OnePlus5T.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/classes/OnePlus5T.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/abstractfactory/factories/AndroidFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/factories/AndroidFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/abstractfactory/factories/WindowsFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/factories/WindowsFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/abstractfactory/interfaces/OSFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/interfaces/OSFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/abstractfactory/interfaces/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/interfaces/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/abstractfactory/types/ManufacturerType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/types/ManufacturerType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/abstractfactory/types/OSType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/abstractfactory/types/OSType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/factory/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/factory/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/factory/FactoryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/factory/FactoryDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/factory/Van.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/factory/Van.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/factory/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/factory/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/factory/VehicleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/factory/VehicleFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/singleton/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/singleton/DBConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/singleton/SingletonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/singleton/SingletonDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/GenericsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/GenericsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/abstraction/AbstractionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/abstraction/AbstractionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/encapsulation/EncapsulationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/encapsulation/EncapsulationDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/inheritance/InheritanceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/inheritance/InheritanceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/polymorphism/compiletime/CompileTimePolymorphism.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/polymorphism/compiletime/CompileTimePolymorphism.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/polymorphism/runtime/RunTimePolymorphism.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/polymorphism/runtime/RunTimePolymorphism.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stackheap/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/stackheap/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stackheap/StackHeapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stackheap/StackHeapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/StringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/StringDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threads/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threads/SynchronizedDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/SynchronizedDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threads/ThreadsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/ThreadsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wrappers/WrappersDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wrappers/WrappersDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -217,7 +172,7 @@
       <workItem from="1569071561031" duration="12928000" />
       <workItem from="1569543078927" duration="3205000" />
       <workItem from="1569548861623" duration="5807000" />
-      <workItem from="1569566580958" duration="210000" />
+      <workItem from="1569566580958" duration="692000" />
     </task>
     <task id="LOCAL-00001" summary="modify gitignore">
       <created>1568084162033</created>
@@ -401,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569122060777</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="add data structures module">
+      <created>1569566956237</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1569566956238</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,7 +383,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="modify gitignore" />
     <MESSAGE value="modify gitignore v2" />
     <MESSAGE value="add main classes" />
     <MESSAGE value="add git changes" />
@@ -446,7 +407,8 @@
     <MESSAGE value="update stackheap readme" />
     <MESSAGE value="update stackheap readme v1" />
     <MESSAGE value="add strings module and update readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="add strings module and update readme" />
+    <MESSAGE value="add data structures module" />
+    <option name="LAST_COMMIT_MESSAGE" value="add data structures module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -12,6 +12,7 @@ Content in the repository:
 * [x] Strings
 * [ ] Data Structures
 * [ ] Wrapper Classes
+* [ ] Serialization
 * [ ] Exceptions
 * [ ] Casting
 * [ ] Inner Classes & Lambda
