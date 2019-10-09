@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="add data structures module">
+    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="update main README">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wrappers/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/wrappers/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -173,6 +174,7 @@
       <workItem from="1569543078927" duration="3205000" />
       <workItem from="1569548861623" duration="5807000" />
       <workItem from="1569566580958" duration="692000" />
+      <workItem from="1570602051082" duration="2035000" />
     </task>
     <task id="LOCAL-00001" summary="modify gitignore">
       <created>1568084162033</created>
@@ -363,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569566956238</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="update main README">
+      <created>1570602155254</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1570602155254</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,7 +392,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="modify gitignore v2" />
     <MESSAGE value="add main classes" />
     <MESSAGE value="add git changes" />
     <MESSAGE value="modify gitignore v3" />
@@ -408,7 +416,8 @@
     <MESSAGE value="update stackheap readme v1" />
     <MESSAGE value="add strings module and update readme" />
     <MESSAGE value="add data structures module" />
-    <option name="LAST_COMMIT_MESSAGE" value="add data structures module" />
+    <MESSAGE value="update main README" />
+    <option name="LAST_COMMIT_MESSAGE" value="update main README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
