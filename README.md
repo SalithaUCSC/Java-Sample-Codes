@@ -11,8 +11,8 @@ Content in the repository:
 * [x] Stack and Heap Memory
 * [x] Strings
 * [ ] Data Structures
-* [ ] Wrapper Classes
-* [ ] Serialization
+* [x] Wrapper Classes
+* [x] Serialization
 * [ ] Exceptions
 * [ ] Casting
 * [ ] Inner Classes & Lambda

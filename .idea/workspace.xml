@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="update wrappers README">
+    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="update wrappers module and README">
+      <change afterPath="$PROJECT_DIR$/src/serialization/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serialization/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serialization/SerializationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serialization/object.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wrappers/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/wrappers/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wrappers/WrappersDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wrappers/WrappersDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +27,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QbdPpg6zWC1Oete7Bslo7EY4lr" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
@@ -48,14 +54,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WrappersDemo">
-    <configuration name="AbstractFactoryDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstractfactory.AbstractFactoryDemo" />
+  <component name="RunManager" selected="Application.SerializationDemo">
+    <configuration name="SerializationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serialization.SerializationDemo" />
       <module name="java-sample-codes" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abstractfactory.*" />
+          <option name="PATTERN" value="serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SerializationDemo" />
         <item itemvalue="Application.WrappersDemo" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.StringDemo" />
         <item itemvalue="Application.StackHeapDemo" />
-        <item itemvalue="Application.AbstractFactoryDemo (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +181,7 @@
       <workItem from="1569543078927" duration="3205000" />
       <workItem from="1569548861623" duration="5807000" />
       <workItem from="1569566580958" duration="692000" />
-      <workItem from="1570602051082" duration="4680000" />
+      <workItem from="1570602051082" duration="8030000" />
     </task>
     <task id="LOCAL-00001" summary="modify gitignore">
       <created>1568084162033</created>
@@ -380,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570604258169</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="update wrappers module and README">
+      <created>1570606829854</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1570606829854</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,8 +413,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add git changes" />
-    <MESSAGE value="modify gitignore v3" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add content to README.md files" />
     <MESSAGE value="update generics README" />
     <MESSAGE value="update generics README v1" />
@@ -425,7 +437,9 @@
     <MESSAGE value="add data structures module" />
     <MESSAGE value="update main README" />
     <MESSAGE value="update wrappers README" />
-    <option name="LAST_COMMIT_MESSAGE" value="update wrappers README" />
+    <MESSAGE value="update wrappers README v2" />
+    <MESSAGE value="update wrappers module and README" />
+    <option name="LAST_COMMIT_MESSAGE" value="update wrappers module and README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
