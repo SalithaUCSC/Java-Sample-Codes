@@ -13,7 +13,7 @@ Content in the repository:
 * [x] Wrapper Classes
 * [x] Serialization
 * [x] Comparable and Comparator
-* [ ] Exceptions
+* [x] Exceptions
 * [ ] Casting
 * [ ] Inner Classes & Lambda
 * [ ] Data Structures
