@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="update wrappers module and README">
-      <change afterPath="$PROJECT_DIR$/src/serialization/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/serialization/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/serialization/SerializationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/serialization/object.txt" afterDir="false" />
+    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="add serialization module">
+      <change afterPath="$PROJECT_DIR$/src/comparison/CompareDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comparison/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comparison/PersonAgeChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comparison/PersonNameChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comparison/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -36,7 +37,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../intconext" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -54,14 +55,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SerializationDemo">
-    <configuration name="SerializationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="serialization.SerializationDemo" />
+  <component name="RunManager" selected="Application.CompareDemo">
+    <configuration name="CompareDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comparison.CompareDemo" />
       <module name="java-sample-codes" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="serialization.*" />
+          <option name="PATTERN" value="comparison.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,13 +70,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackHeapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stackheap.StackHeapDemo" />
+    <configuration name="SerializationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serialization.SerializationDemo" />
       <module name="java-sample-codes" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stackheap.*" />
+          <option name="PATTERN" value="serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompareDemo" />
         <item itemvalue="Application.SerializationDemo" />
         <item itemvalue="Application.WrappersDemo" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.StringDemo" />
-        <item itemvalue="Application.StackHeapDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +182,8 @@
       <workItem from="1569543078927" duration="3205000" />
       <workItem from="1569548861623" duration="5807000" />
       <workItem from="1569566580958" duration="692000" />
-      <workItem from="1570602051082" duration="8030000" />
+      <workItem from="1570602051082" duration="8322000" />
+      <workItem from="1570760358124" duration="6774000" />
     </task>
     <task id="LOCAL-00001" summary="modify gitignore">
       <created>1568084162033</created>
@@ -393,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570606829854</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="add serialization module">
+      <created>1570610379740</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1570610379740</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +423,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add content to README.md files" />
     <MESSAGE value="update generics README" />
     <MESSAGE value="update generics README v1" />
     <MESSAGE value="update generics README v2" />
@@ -439,7 +447,8 @@
     <MESSAGE value="update wrappers README" />
     <MESSAGE value="update wrappers README v2" />
     <MESSAGE value="update wrappers module and README" />
-    <option name="LAST_COMMIT_MESSAGE" value="update wrappers module and README" />
+    <MESSAGE value="add serialization module" />
+    <option name="LAST_COMMIT_MESSAGE" value="add serialization module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

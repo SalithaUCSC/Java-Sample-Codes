@@ -10,12 +10,13 @@ Content in the repository:
 * [x] OOP Concepts
 * [x] Stack and Heap Memory
 * [x] Strings
-* [ ] Data Structures
 * [x] Wrapper Classes
 * [x] Serialization
+* [x] Comparable and Comparator
 * [ ] Exceptions
 * [ ] Casting
 * [ ] Inner Classes & Lambda
+* [ ] Data Structures
 * [ ] Design Patterns
 
 Hint:
