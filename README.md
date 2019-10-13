@@ -14,7 +14,7 @@ Content in the repository:
 * [x] Serialization
 * [x] Comparable and Comparator
 * [x] Exceptions
-* [ ] Casting
+* [x] Casting
 * [ ] Inner Classes & Lambda
 * [ ] Data Structures
 * [ ] Design Patterns
