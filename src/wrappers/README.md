@@ -24,25 +24,27 @@ wrapper classes, we can wrap a primitive value into a wrapper class object.<br>
 objects (reference types) and not primitive types.
 * An object is needed to support synchronization in multithreading.
 
-### AutoBoxing
+### Boxing and AutoBoxing
 
-Automatic conversion of primitive types into objects according to their corresponding 
-wrapper classes is known as autoboxing. <br>
+Conversion of primitive types into objects according to their corresponding 
+wrapper classes is known as boxing. <br>
 E.g.    int to Integer , byte to Byte
 
 ```java
 int x = 20;  
-Integer y = x;  // Integer.valueOf(x) is called implicitly
+Integer y = x;                  // Integer.valueOf(x) is called implicitly - AutoBoxing
+Integer z = new Integer(i);     // Assign i as an Integer explicitly - Boxing
 ```
         
-### Unboxing
+### Unboxing and AutoUnboxing
 
-Automatic conversion of wrapper class objects into their corresponding primitive values 
-is known as autoboxing. <br>
+Conversion of wrapper class objects into their corresponding primitive values 
+is known as unboxing. <br>
 E.g.    Integer to int , Byte to byte
 ```java
 Integer x = new Integer(30);    
-int y = x;  // Integer.intValue(x) is called implicitly
+int y = x;                      // Integer.intValue(x) is called implicitly - AutoUnboxing
+int z = x.intValue();           // Integer.intValue(x) is called explicitly - Unboxing
 ``` 
 
 
