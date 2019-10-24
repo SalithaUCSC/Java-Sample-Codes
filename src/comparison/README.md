@@ -6,7 +6,7 @@ objects**.
 classes, these are very important.
 * Any attribute of the object can be used as the sorting field.
 * With Comparable, **compareTo** method should be implemented.
-* With Comparator, **comparison** method should be implemented.
+* With Comparator, **compare** method should be implemented.
 
 This is the custom class that is used here.
 
@@ -134,14 +134,14 @@ after sorting: [{Name=kamal , Age=24 , Job=QA}, {Name=nimal , Age=20 , Job=BA}, 
 >Implementation
 * The custom **Comparator** class must be created.
 * It must be implemented by **Comparator**.
-* **comparison** method must be overridden. It takes two arguments of the class
+* **compare** method must be overridden. It takes two arguments of the class
 that is used.
 >Code for a **name** comparator
 ```java
 public class PersonNameChecker implements Comparator<Person> {
 
     @Override
-    public int comparison(Person p1, Person p2) {
+    public int compare(Person p1, Person p2) {
         return p1.getName().compareTo(p2.getName());
     }
 }

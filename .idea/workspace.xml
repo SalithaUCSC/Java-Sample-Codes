@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="add exceptions module">
-      <change afterPath="$PROJECT_DIR$/src/casting/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casting/CastingDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casting/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casting/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casting/Mammal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/casting/README.md" afterDir="false" />
+    <list default="true" id="64908dd4-c35f-4d70-8afe-861bce44e005" name="Default" comment="add casting module">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -185,7 +179,7 @@
       <workItem from="1570602051082" duration="8322000" />
       <workItem from="1570760358124" duration="13199000" />
       <workItem from="1570775595072" duration="1433000" />
-      <workItem from="1570980256838" duration="3954000" />
+      <workItem from="1570980256838" duration="6695000" />
     </task>
     <task id="LOCAL-00001" summary="modify gitignore">
       <created>1568084162033</created>
@@ -418,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570776410392</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="add casting module">
+      <created>1570984565098</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1570984565098</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,7 +440,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="update generics README v2" />
     <MESSAGE value="add threads initial code and README" />
     <MESSAGE value="add threads v1" />
     <MESSAGE value="add threads v2 with synchronization" />
@@ -464,7 +464,8 @@
     <MESSAGE value="add serialization module" />
     <MESSAGE value="add comparable and comparator module as comparison" />
     <MESSAGE value="add exceptions module" />
-    <option name="LAST_COMMIT_MESSAGE" value="add exceptions module" />
+    <MESSAGE value="add casting module" />
+    <option name="LAST_COMMIT_MESSAGE" value="add casting module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
