@@ -152,7 +152,7 @@ public class PersonNameChecker implements Comparator<Person> {
 public class PersonAgeChecker implements Comparator<Person> {
 
     @Override
-    public int comparison(Person p1, Person p2) {
+    public int compare(Person p1, Person p2) {
         return p1.getAge() - p2.getAge();
     }
 }
